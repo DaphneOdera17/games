@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/clion code/games/snake/cmake-build-debug"
+			"value" : "d:/clion code/games/games/snake/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/clion code/games/snake/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "D:/clion code/games/games/snake/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/clion code/games/snake"
+			"value" : "D:/clion code/games/games/snake"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1275,7 +1275,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/clion code/games/snake/cmake-build-debug"
+			"value" : "D:/clion code/games/games/snake/cmake-build-debug"
 		},
 		{
 			"name" : "snake_IS_TOP_LEVEL",
@@ -1299,7 +1299,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/clion code/games/snake"
+			"value" : "D:/clion code/games/games/snake"
 		}
 	],
 	"kind" : "cache",
