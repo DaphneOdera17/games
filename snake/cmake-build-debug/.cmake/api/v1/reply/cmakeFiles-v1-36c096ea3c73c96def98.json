@@ -777,8 +777,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/clion code/games/games/snake/cmake-build-debug",
-		"source" : "D:/clion code/games/games/snake"
+		"build" : "D:/games/snake/cmake-build-debug",
+		"source" : "D:/games/snake"
 	},
 	"version" : 
 	{

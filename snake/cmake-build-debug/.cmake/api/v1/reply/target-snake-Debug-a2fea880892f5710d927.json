@@ -59,7 +59,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "D:/clion code/games/games/snake/./easyx/include"
+					"path" : "D:/games/snake/./easyx/include"
 				}
 			],
 			"language" : "CXX",
@@ -92,7 +92,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LD:\\CLIONC~1\\games\\games\\snake\\.\\easyx\\lib64",
+				"fragment" : "-LD:\\games\\snake\\.\\easyx\\lib64",
 				"role" : "libraryPath"
 			},
 			{
