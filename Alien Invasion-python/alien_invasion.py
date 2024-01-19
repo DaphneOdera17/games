@@ -93,6 +93,8 @@ class AlienInvasion:
         self.stats.reset_stats()
         self.stats.game_active = True
         self.sb.prep_score()
+        self.sb.prep_level()
+        self.sb.prep_ships()
 
         # 清空余下的外星人和子弹
         self.aliens.empty()
@@ -169,6 +171,7 @@ class AlienInvasion:
         if self.stats.ships_left >= 1:
             # 将 ships_left 减 1
             self.stats.ships_left -= 1
+            self.sb.prep_ships()
 
             # 清空余下的外星人和子弹
             self.aliens.empty()
@@ -203,8 +206,10 @@ class AlienInvasion:
             self.bullets, self.aliens, True, True
         )
         if collisions:
-            self.stats.score += self.settings.alien_points
+            for aliens in collisions.values():
+                self.stats.score += self.settings.alien_points * len(aliens)
             self.sb.prep_score()
+            self.sb.check_high_score()
 
         # 如果外星人编组为空
         if not self.aliens:
@@ -213,6 +218,10 @@ class AlienInvasion:
             self._create_fleet()
             # 加快游戏的节奏
             self.settings.increase_speed()
+
+            # 提升等级
+            self.stats.level += 1
+            self.sb.prep_level()
 
     def _check_aliens_bottom(self):
         """检查是否有外星人到达了屏幕底部"""
